@@ -1,0 +1,13 @@
+{
+  "name": "aoc2024",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "elm-test"
+  },
+  "author": "Joel S. Roxell",
+  "license": "ISC",
+  "dependencies": {
+    "elm": "^0.19.1-6",
+    "elm-test": "^0.19.1-revision12"
+  }
+}
