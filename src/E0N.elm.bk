@@ -1,0 +1,20 @@
+module E0N exposing (e0Na, e0Nb)
+
+
+e0Na : String -> Int
+e0Na _ =
+    let
+        _ =
+            parse ""
+    in
+    0
+
+
+e0Nb : String -> Int
+e0Nb _ =
+    0
+
+
+parse : String -> List ( Int, Int )
+parse _ =
+    []

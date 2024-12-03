@@ -1,0 +1,32 @@
+module E0N_test exposing (..)
+
+import E0N
+import Expect exposing (..)
+import Test exposing (..)
+
+
+tests : Test
+tests =
+    describe "E0N"
+        [ test "test_a" <|
+            \_ -> Expect.equal (E0N.e0Na example_data) 2
+
+        --, test "a" <|
+        --    \_ -> Expect.equal (E03.e03a input_data) 680
+        --, test "test_b" <|
+        --    \_ -> Expect.equal (E03.e03b example_data) 4
+        --, test "b" <|
+        --    \_ -> Expect.equal (E03.e03b input_data) 710
+        ]
+
+
+example_data : String
+example_data =
+    """
+"""
+
+
+input_data : String
+input_data =
+    """
+"""
